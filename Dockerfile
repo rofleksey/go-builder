@@ -6,3 +6,4 @@ ENV PATH $PATH:/usr/local/go/bin
 
 # golangci-lint
 RUN go install github.com/golangci/golangci-lint/cmd/golangci-lint@v1.55.1
+ENV PATH $PATH:/root/go/bin/
