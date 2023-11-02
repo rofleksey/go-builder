@@ -4,5 +4,5 @@ FROM catthehacker/ubuntu:act-latest
 RUN curl -s https://storage.googleapis.com/golang/go1.20.6.linux-amd64.tar.gz| tar -v -C /usr/local -xz
 ENV PATH $PATH:/usr/local/go/bin
 
-# Golangci-Lint
+# golangci-lint
 RUN go install github.com/golangci/golangci-lint/cmd/golangci-lint@v1.55.1
